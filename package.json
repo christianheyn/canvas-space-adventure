@@ -1,13 +1,8 @@
 {
-	"name": "Basic-Frontend-Structure",
+	"name": "Canvas-Space-Adventure",
 	"version": "1.0.0",
-	"description": "",
-	"author": "",
-	"license": "",
-	"repository": {
-		"type": "git",
-		"url": "git@gitlab.synbackend.com:synlight-internal-projects/base-frontend-structure.git"
-	},
+	"description": "Create Stars with canvas in a given box",
+	"author": "Christian Heyn",
 	"devDependencies": {
 		"grunt-contrib-uglify": "*",
 		"grunt-contrib-less": "*",
@@ -17,7 +12,7 @@
 		"grunt-contrib-concat": "*"
 	},
 	"bower.json": {
-		"name": "basic-frontend-structure",
+		"name": "Canvas-Space-Adventure",
 		"version": "1.0.0",
 		"dependencies": {
 			"normalize.css": "*"
