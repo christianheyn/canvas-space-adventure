@@ -1,0 +1,29 @@
+{
+	"name": "Basic-Frontend-Structure",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.synbackend.com:synlight-internal-projects/base-frontend-structure.git"
+	},
+	"devDependencies": {
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-bower-task": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-concat": "*"
+	},
+	"bower.json": {
+		"name": "basic-frontend-structure",
+		"version": "1.0.0",
+		"dependencies": {
+			"normalize.css": "*"
+		},
+	    "vendor": {
+	        "normalize.css": "normalize.css"
+	    }
+	}
+}

@@ -1,0 +1,22 @@
+/**
+ * All mixins
+ */
+.transition(@task, @duration: 150ms, @wait: 0ms) {
+	-webkit-transition-property: @task;
+	-webkit-transition-duration: @duration;
+	-webkit-transition-timing-function: ease-in;
+	-webkit-transition-delay: @wait;
+
+	-moz-transition-property:  @task;
+	-moz-transition-duration: @duration;
+	-moz-transition-timing-function: ease-in;
+	-moz-transition-delay: @wait;
+
+	transition-property:  @task;
+	transition-duration: @duration;
+	transition-timing-function: ease-in;
+	transition-delay: @wait;
+
+	animation-direction: alternate;
+	-webkit-animation-direction: alternate;
+}
