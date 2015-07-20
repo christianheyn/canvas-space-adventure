@@ -162,7 +162,7 @@ window.CanvasSpaceAdventure = (function (document) {
         if (!!settings.galaxy) {
             // create canvas and put it in the galaxy
             canvas = document.createElement('canvas');
-            canvas.id = 'fucking-space-adventure';
+            canvas.id = 'canvas-space-adventure';
             //TO DO Style
             canvasStyle = canvas.style;
             canvasStyle.position = 'absolute';
